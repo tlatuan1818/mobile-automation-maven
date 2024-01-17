@@ -27,6 +27,18 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
+    - name: Set up Android SDK
+      uses: actions/setup-android@v3
+      with:
+        sdk-version: '34'  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
+
+    - name: Build and run APK with Maven
+      run: |
+        ./mvnw install  # Thay thế lệnh này nếu bạn có lệnh khác để xây dựng ứng dụng của mình
+        adb install -r mobile-automation-maven/QrRM.apk
+    - name: Run your APK
+      run: |
+        adb shell am start -n quocviet.com.vn.qrrm/quocviet.com.vn.qrrm.LoginActivity  # Thay đổi thành tên package và activity của ứng dụng của bạn
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
