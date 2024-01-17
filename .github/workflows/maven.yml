@@ -37,6 +37,8 @@ jobs:
 
     - name: Install Android Emulator
       run: sdkmanager "emulator" --sdk_root=${{ env.ANDROID_HOME }}  
+    - name: List available emulators
+      run: $ANDROID_HOME/emulator/emulator -list-avds
     - name: Start Emulator
       run: $ANDROID_HOME/emulator/emulator -avd ${{ matrix.emulator }} -no-window
     - name: Build and run APK with Maven
