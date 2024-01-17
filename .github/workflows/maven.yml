@@ -38,7 +38,7 @@ jobs:
     - name: Install Android Emulator
       run: sdkmanager "emulator" --sdk_root=${{ env.ANDROID_HOME }} 
     - name: Install necessary components
-      run: sdkmanager "platforms;android-21" "system-images;android-21;default;x86" "build-tools;21.1.2" "platform-tools"
+      run: sdkmanager --install "system-images;android-21;google_apis;x86"
     - name: Create AVD
       run: avdmanager create avd -n test -k "system-images;android-21;default;x86" 
     - name: Start Emulator
