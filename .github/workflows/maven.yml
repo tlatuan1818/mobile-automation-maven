@@ -41,7 +41,8 @@ jobs:
       run: sdkmanager --install "system-images;android-${{ matrix.api-level }};google_apis;x86"
     - name: Create AVD
       run: echo no | avdmanager create avd -n ${{ matrix.target }} -k "system-images;android-${{ matrix.api-level }};google_apis;x86" --device "pixel" --force
-
+    - name: Install KVM
+      run: sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
     - name: Start Emulator
       run:  $ANDROID_HOME/emulator/emulator -avd ${{ matrix.target }} -no-window
     - name: Build and run APK with Maven
