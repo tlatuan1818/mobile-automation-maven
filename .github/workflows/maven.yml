@@ -36,7 +36,9 @@ jobs:
         cmdline-tools-version: 8512546  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
 
     - name: Install Android Emulator
-      run: sdkmanager "emulator" --sdk_root=${{ env.ANDROID_HOME }}  
+      run: sdkmanager "emulator" --sdk_root=${{ env.ANDROID_HOME }} 
+    - name: Install necessary components
+      run: sdkmanager "platforms;android-${{ matrix.api-level }}" "system-images;android-${{ matrix.api-level }};google_apis_playstore;x86"
     - name: Create AVD
       run: avdmanager create avd -n ${{ matrix.target }} -k "system-images;android-${{ matrix.api-level }};google_apis_playstore;x86" --device "pixel" --force
     - name: Start Emulator
