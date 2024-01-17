@@ -42,6 +42,8 @@ jobs:
       run: sdkmanager "emulator" --sdk_root=${{ env.ANDROID_HOME }} 
     - name: Check Emulator Status
       run: adb devices
+    - name: List Created AVDs
+      run: avdmanager list avd
     - name: Wait for Emulator to be Ready
       run: sleep 30 
    # - name: Install necessary components
