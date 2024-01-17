@@ -41,8 +41,7 @@ jobs:
       run: sdkmanager --install "system-images;android-${{ matrix.api-level }};google_apis;x86"
     - name: Create AVD
       run: echo no | avdmanager create avd -n ${{ matrix.target }} -k "system-images;android-${{ matrix.api-level }};google_apis;x86" --device "pixel" --force
-    - name: Add user to kvm group
-      run: sudo groupadd -r kvm
+ 
     - name: Add user to kvm group passwd
       run: sudo gpasswd -a $USER kvm
 
