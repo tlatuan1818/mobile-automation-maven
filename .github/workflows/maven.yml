@@ -43,7 +43,7 @@ jobs:
       run: echo no | avdmanager create avd -n ${{ matrix.target }} -k "system-images;android-${{ matrix.api-level }};google_apis;x86" --device "pixel" --force
     - name: Check KVM
       run: sudo apt-get install cpu-checker
-           egrep -c '(vmx|svm)' /proc/cpuinfo
+           
     - name: Run KVM
       run: sudo kvm-ok
     - name: Start Emulator
