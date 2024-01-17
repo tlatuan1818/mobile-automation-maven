@@ -38,9 +38,9 @@ jobs:
     - name: Install Android Emulator
       run: sdkmanager "emulator" --sdk_root=${{ env.ANDROID_HOME }} 
     - name: Install necessary components
-      run: sdkmanager "platforms;android-${{ matrix.api-level }}" "system-images;android-${{ matrix.api-level }};google_apis_playstore;x86"
+      run: sdkmanager "platforms;android-21" "system-images;android-21;default;x86" "build-tools;21.1.2" "platform-tools"
     - name: Create AVD
-      run: avdmanager create avd -n ${{ matrix.target }} -k "system-images;android-${{ matrix.api-level }};google_apis_playstore;x86" --device "pixel" --force
+      run: avdmanager create avd -n ${{ matrix.target }} -k "system-images;android-21;default;x86" 
     - name: Start Emulator
       run: $ANDROID_HOME/emulator/emulator -avd ${{ matrix.target }} -no-window
     - name: Build and run APK with Maven
