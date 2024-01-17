@@ -41,8 +41,10 @@ jobs:
       run: sdkmanager --install "system-images;android-${{ matrix.api-level }};google_apis;x86"
     - name: Create AVD
       run: echo no | avdmanager create avd -n ${{ matrix.target }} -k "system-images;android-${{ matrix.api-level }};google_apis;x86" --device "pixel" --force
+    - name: Add user to kvm group
+      run: sudo adduser $USER kvm
     - name: Start Emulator
-      run: $ANDROID_HOME/emulator/emulator -avd ${{ matrix.target }} -no-window
+      run: $ANDROID_HOME/emulator/emulator -avd ${{ matrix.target }} -no-window -qemu -no-accel
     - name: Build and run APK with Maven
       run:  adb install -r mobile-automation-maven/tree/master/QrRM.apk # Thay thế lệnh này nếu bạn có lệnh khác để xây dựng ứng dụng của mình
     - name: Run your APK
