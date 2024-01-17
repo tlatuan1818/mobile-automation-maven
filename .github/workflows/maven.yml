@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Set up Android SDK
-      uses: aneeshnair/setup-android@v3
+      uses: android-actions/setup-android@v3
       with:
         sdk-version: '34'  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
 
