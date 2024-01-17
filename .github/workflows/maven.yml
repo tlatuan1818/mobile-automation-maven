@@ -18,7 +18,7 @@ jobs:
   build:
     strategy:
       matrix:
-        api-level: [23]  # Add the Android API levels you want to test
+        api-level: [21]  # Add the Android API levels you want to test
         target: [default_tuan]
     runs-on: ubuntu-latest
 
