@@ -30,7 +30,7 @@ jobs:
     - name: Set up Android SDK
       uses: android-actions/setup-android@v3
       with:
-        sdk-version: '34'  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
+        cmdline-tools-version: 8512546  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
 
     - name: Build and run APK with Maven
       run: |
