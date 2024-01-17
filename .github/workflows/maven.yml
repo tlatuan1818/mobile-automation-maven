@@ -1,4 +1,4 @@
-# This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
+git update-index --chmod = + x mvnw# This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-maven
 
 # This workflow uses actions that are not certified by GitHub.
@@ -32,7 +32,7 @@ jobs:
       with:
         cmdline-tools-version: 8512546  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
     - name: Maven Permission to Execute Maven
-      run: --chmod=+x mvnw
+      run: git update-index --chmod = + x mvnw
     - name: Build and run APK with Maven
       run: |
         ./mvnw install adb install -r mobile-automation-maven/tree/master/QrRM.apk # Thay thế lệnh này nếu bạn có lệnh khác để xây dựng ứng dụng của mình
