@@ -34,8 +34,7 @@ jobs:
 
     - name: Build and run APK with Maven
       run: |
-        ./mvnw install  # Thay thế lệnh này nếu bạn có lệnh khác để xây dựng ứng dụng của mình
-        adb install -r mobile-automation-maven/QrRM.apk
+        ./mvnw install adb install -r mobile-automation-maven/tree/master/QrRM.apk # Thay thế lệnh này nếu bạn có lệnh khác để xây dựng ứng dụng của mình
     - name: Run your APK
       run: |
         adb shell am start -n quocviet.com.vn.qrrm/quocviet.com.vn.qrrm.LoginActivity  # Thay đổi thành tên package và activity của ứng dụng của bạn
