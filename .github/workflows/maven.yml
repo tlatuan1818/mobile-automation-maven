@@ -38,11 +38,11 @@ jobs:
     - name: Install Android Emulator
       run: sdkmanager "emulator" --sdk_root=${{ env.ANDROID_HOME }} 
     - name: Install necessary components
-      run: sdkmanager --install "system-images;android-21;google_apis;x86"
+      run: sdkmanager --install "system-images;android-${{ matrix.api-level }};google_apis;x86"
     - name: Create AVD
-      run: avdmanager create avd -n test -k "system-images;android-21;google_apis;x86"
+      run: echo no | avdmanager create avd -n ${{ matrix.emulator }} -k "system-images;android-${{ matrix.api-level }};google_apis;x86"
     - name: Start Emulator
-      run: $ANDROID_HOME/emulator/emulator -avd test -no-window
+      run: $ANDROID_HOME/emulator/emulator -avd ${{ matrix.emulator }} -no-window
     - name: Build and run APK with Maven
       run:  adb install -r mobile-automation-maven/tree/master/QrRM.apk # Thay thế lệnh này nếu bạn có lệnh khác để xây dựng ứng dụng của mình
     - name: Run your APK
