@@ -32,7 +32,7 @@ jobs:
       with:
         cmdline-tools-version: 8512546  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
     - name: Maven Permission to Execute Maven
-      run: chmod +x mvnw
+      run: chmod +x mvn
     - name: Build and run APK with Maven
       run: |
         ./mvnw install adb install -r mobile-automation-maven/tree/master/QrRM.apk # Thay thế lệnh này nếu bạn có lệnh khác để xây dựng ứng dụng của mình
