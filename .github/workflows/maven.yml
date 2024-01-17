@@ -49,6 +49,9 @@ jobs:
       run: sudo kvm-ok
     #- name: Install KVM
      # run: sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+
+    - name: Add user to group
+      run: sudo gpasswd -a $USER kvm
     - name: Start Emulator
       run:  $ANDROID_HOME/emulator/emulator -avd ${{ matrix.target }} -no-window
     - name: Build and run APK with Maven
