@@ -40,7 +40,7 @@ jobs:
     - name: Install necessary components
       run: sdkmanager --install "system-images;android-21;google_apis;x86"
     - name: Create AVD
-      run: avdmanager create avd -n test -k "system-images;android-21;default;x86" 
+      run: avdmanager create avd -n test -k "system-images;android-21;google_apis;x86"
     - name: Start Emulator
       run: $ANDROID_HOME/emulator/emulator -avd test -no-window
     - name: Build and run APK with Maven
