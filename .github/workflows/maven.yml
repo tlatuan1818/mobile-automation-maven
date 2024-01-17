@@ -48,7 +48,7 @@ jobs:
       run: id $USER
     - name: Check KVM Device Permissions
       run: ls -l /dev/kvm
-    - name: Restart Emulator
+    
      
     - name: Start Emulator
       run: $ANDROID_HOME/emulator/emulator -avd ${{ matrix.target }} -no-window -qemu -no-accel
