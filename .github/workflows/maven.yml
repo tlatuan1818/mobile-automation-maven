@@ -32,14 +32,14 @@ jobs:
       with:
         cmdline-tools-version: 8512546  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
    
-    - name: Build and run APK with Maven
-      run: |
-        ./mvn install adb install -r mobile-automation-maven/tree/master/QrRM.apk # Thay thế lệnh này nếu bạn có lệnh khác để xây dựng ứng dụng của mình
-    - name: Run your APK
-      run: |
-        adb shell am start -n quocviet.com.vn.qrrm/quocviet.com.vn.qrrm.LoginActivity  # Thay đổi thành tên package và activity của ứng dụng của bạn
+   
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+
+    - name: Build and run APK with Maven
+      run:  adb install -r mobile-automation-maven/tree/master/QrRM.apk # Thay thế lệnh này nếu bạn có lệnh khác để xây dựng ứng dụng của mình
+    - name: Run your APK
+      run: adb shell am start -n quocviet.com.vn.qrrm/quocviet.com.vn.qrrm.LoginActivity  # Thay đổi thành tên package và activity của ứng dụng của bạn
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
