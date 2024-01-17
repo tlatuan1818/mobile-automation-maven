@@ -18,7 +18,7 @@ jobs:
   build:
     strategy:
       matrix:
-        api-level: [21, 22, 23]  # Add the Android API levels you want to test
+        api-level: [23]  # Add the Android API levels you want to test
         emulator: [pixel, nexus]
     runs-on: ubuntu-latest
 
@@ -34,8 +34,11 @@ jobs:
       uses: android-actions/setup-android@v3
       with:
         cmdline-tools-version: 8512546  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
+
+    - name: Install Android Emulator
+      run: sdkmanager "emulator" --sdk_root=${{ env.ANDROID_HOME }}  
     - name: Start Emulator
-      run: emulator -avd ${{ matrix.emulator }} -no-window
+      run: $ANDROID_HOME/emulator/emulator -avd ${{ matrix.emulator }} -no-window
     - name: Build and run APK with Maven
       run:  adb install -r mobile-automation-maven/tree/master/QrRM.apk # Thay thế lệnh này nếu bạn có lệnh khác để xây dựng ứng dụng của mình
     - name: Run your APK
