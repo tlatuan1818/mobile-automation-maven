@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         api-level: [21]  # Add the Android API levels you want to test
-        target: [default]
+        target: [pixel_5]
     runs-on: ubuntu-latest
 
     steps:
