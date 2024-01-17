@@ -43,12 +43,12 @@ jobs:
       run: echo no | avdmanager create avd -n ${{ matrix.target }} -k "system-images;android-${{ matrix.api-level }};google_apis;x86" --device "pixel" --force
    
     - name: Check KVM
-      run: sudo apt-get install cpu-checker
+      run: sudo apt-get install cpu-checker msr-tools
            
     - name: Run KVM
       run: sudo kvm-ok
-    - name: Install KVM
-      run: sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+    #- name: Install KVM
+     # run: sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
     - name: Start Emulator
       run:  $ANDROID_HOME/emulator/emulator -avd ${{ matrix.target }} -no-window
     - name: Build and run APK with Maven
