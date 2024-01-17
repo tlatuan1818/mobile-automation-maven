@@ -43,7 +43,7 @@ jobs:
     - name: Check Emulator Status
       run: adb devices
     - name: List Created AVDs
-      run: avdmanager list avd
+      run: avdmanager list
     - name: Wait for Emulator to be Ready
       run: sleep 30 
    # - name: Install necessary components
