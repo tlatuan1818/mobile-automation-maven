@@ -36,6 +36,7 @@ jobs:
         cmdline-tools-version: 8512546  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
     - name: Update SDK Components
       run: |
+         sudo apt-get install -y libjaxb-api-java
          echo "yes" | $ANDROID_SDK_ROOT/tools/bin/sdkmanager --update
     - name: Installed Packages
       run: sdkmanager --install "platform-tools" "system-images;android-29;google_apis;x86_64" "emulator"
