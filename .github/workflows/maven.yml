@@ -34,6 +34,9 @@ jobs:
       uses: android-actions/setup-android@v3
       with:
         cmdline-tools-version: 8512546  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
+    - name: Update SDK Tools
+      run: |
+        sdkmanager --update
     - name: Installed Packages
       run: sdkmanager --install "system-images;android-29;google_apis;x86_64"
     #- name: Start Emulator
