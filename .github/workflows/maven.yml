@@ -38,7 +38,10 @@ jobs:
       run: |
         sdkmanager --update
     - name: Installed Packages
-      run: sdkmanager --install "system-images;android-29;google_apis;x86_64"
+      run: sdkmanager --install "platform-tools" "system-images;android-29;google_apis;x86_64" "emulator"
+    - name: Update PATH
+      run: |
+        export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
     #- name: Start Emulator
     #  run:  $ANDROID_HOME/emulator/emulator -avd ${{ matrix.target }} -no-window
     #- name: Build and run APK with Maven
