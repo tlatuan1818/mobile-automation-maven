@@ -34,8 +34,7 @@ jobs:
       uses: android-actions/setup-android@v3
       with:
         cmdline-tools-version: 8512546  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
-    - name: Set up Maven
-      run: mvn clean install
+   
     #- name: Start Emulator
     #  run:  $ANDROID_HOME/emulator/emulator -avd ${{ matrix.target }} -no-window
     #- name: Build and run APK with Maven
@@ -46,8 +45,11 @@ jobs:
       run: |
         adb install -r mobile-automation-maven/tree/master/QrRM.apk
         adb shell am start -n  quocviet.com.vn.qrrm/quocviet.com.vn.qrrm.LoginActivity
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
+
+    - name: Set up Maven
+      run: mvn clean install
+    #- name: Build with Maven
+     # run: mvn -B package --file pom.xml
 
    
 
