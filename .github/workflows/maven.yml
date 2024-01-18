@@ -34,9 +34,12 @@ jobs:
       uses: android-actions/setup-android@v3
       with:
         cmdline-tools-version: 8512546  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
-    - name: Update SDK Components
+    - name: Install JAXB Module
       run: |
          sudo apt-get install -y libjaxb-api-java
+         export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))
+         sudo mkdir -p $JAVA_HOME/jmods
+         sudo ln -s /usr/share/java/jaxb-api.jar $JAVA_HOME/jmods/
          echo "yes" | $ANDROID_SDK_ROOT/tools/bin/sdkmanager --update
     - name: Installed Packages
       run: sdkmanager --install "platform-tools" "system-images;android-29;google_apis;x86_64" "emulator"
