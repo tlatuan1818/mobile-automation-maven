@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         api-level: [21]  # Add the Android API levels you want to test
-        target: [pixel_5]
+        target: [google_apis]
     runs-on: ubuntu-latest
 
     steps:
@@ -38,13 +38,20 @@ jobs:
     - name: Update PATH
       run: |
         export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
-
+    - name: run tests
+      uses: reactivecircus/android-emulator-runner@v2
+      with:
+          api-level: ${{ matrix.api-level }}
+          target: ${{ matrix.target }}
+          arch: x86_64
+          profile: Nexus 6
+          script: ./gradlew connectedCheck
     - name: Start Emulator
       run: |
     
-        echo "no" | avdmanager create avd --force --name testAVD --abi google_apis/x86_64 --package 'system-images;android-29;google_apis;x86_64'
-        ls -l /usr/local/lib
-        $ANDROID_SDK_ROOT/emulator -avd testAVD -no-window -no-audio -no-boot-anim &
+        #echo "no" | avdmanager create avd --force --name testAVD --abi google_apis/x86_64 --package 'system-images;android-29;google_apis;x86_64'
+        ls -l $ANDROID_SDK_ROOT
+        $ANDROID_SDK_ROOT/emulator -avd ${{ matrix.target }} -no-window -no-audio -no-boot-anim &
         sleep 60
         $ANDROID_SDK_ROOT/platform-tools/adb shell input keyevent 82 
     
