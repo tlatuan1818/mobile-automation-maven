@@ -51,7 +51,9 @@ jobs:
     - name: Start Emulator
       run: |
         echo "no" | avdmanager create avd --force --name testAVD --abi google_apis/x86_64 --package 'system-images;android-29;google_apis;x86_64'
-        emulator -avd testAVD -no-window -no-audio -no-boot-anim &
+        $ANDROID_SDK_ROOT/emulator -avd testAVD -no-window -no-audio -no-boot-anim &
+        $ANDROID_SDK_ROOT/tools/bin/sdkmanager --licenses
+        $ANDROID_SDK_ROOT/tools/bin/sdkmanager "platform-tools"
         android-wait-for-emulator
     - name: Run APK
       run: |
