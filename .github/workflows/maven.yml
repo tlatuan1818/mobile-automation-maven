@@ -34,14 +34,15 @@ jobs:
       uses: android-actions/setup-android@v3
       with:
         cmdline-tools-version: 8512546  # Thay đổi tùy theo phiên bản Android SDK bạn muốn sử dụng
-    - name: Update SDK Tools
+    - name: Update SDK Components
       run: |
-        sdkmanager --update
+         echo "yes" | $ANDROID_SDK_ROOT/tools/bin/sdkmanager --update
     - name: Installed Packages
       run: sdkmanager --install "platform-tools" "system-images;android-29;google_apis;x86_64" "emulator"
     - name: Update PATH
       run: |
         export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+    
     #- name: Start Emulator
     #  run:  $ANDROID_HOME/emulator/emulator -avd ${{ matrix.target }} -no-window
     #- name: Build and run APK with Maven
