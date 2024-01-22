@@ -34,7 +34,7 @@ public class BaseSetup {
         }
        // Kiểm tra xem appiumServer có được khởi tạo thành công hay không
         if (appiumServer != null) {
-            appiumDriver = new AndroidDriver<>(appiumServer, desiredCapabilities);
+            appiumDriver = new AppiumDriver<>(appiumServer, desiredCapabilities);
             appiumDriver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
         } else {
             System.out.println("Error initializing AppiumDriver: appiumServer is null");
