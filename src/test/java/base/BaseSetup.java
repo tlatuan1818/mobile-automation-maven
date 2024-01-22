@@ -27,7 +27,7 @@ public class BaseSetup {
         DesiredCapabilities desiredCapabilities = getDesiredCapabilities();
         URL appiumServer;
         try {
-            appiumServer = new URL("http://localhost:4723/wd/hub");
+            appiumServer = new URL(appURL);
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }
@@ -41,7 +41,7 @@ public class BaseSetup {
     public void initializeTestBaseSetup(String appURL) {
         try {
             // Khởi tạo driver
-            setAppiumDriver(appURL);
+            setAppiumDriver("http://127.0.0.1:4723/wd/hub");
         } catch (Exception e) {
             System.out.println("Error..." + e.getStackTrace());
         }
