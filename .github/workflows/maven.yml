@@ -26,7 +26,14 @@ jobs:
       uses: android-actions/setup-android@v3
       with:
         cmdline-tools-version: 8512546
-   
+    - name: Install Node.js and npm
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14'
+
+    - name: Install Appium
+      run: npm install -g appium
+
     - name: Installed Packages
       run: sdkmanager --install "platform-tools" "system-images;android-29;google_apis;x86_64" "emulator"
     - name: Enable KVM
@@ -49,6 +56,8 @@ jobs:
         
         $ANDROID_SDK_ROOT/platform-tools/adb install -r QrRM.apk
         $ANDROID_SDK_ROOT/platform-tools/adb shell am start -n quocviet.com.vn.qrrm/quocviet.com.vn.qrrm.LoginActivity
-
+    
+    - name: Start Appium server
+      run: appium &
     - name: Build with Maven
       run: mvn -B package --file pom.xml
