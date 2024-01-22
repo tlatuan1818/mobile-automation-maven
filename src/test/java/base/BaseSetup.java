@@ -27,7 +27,7 @@ public class BaseSetup {
         DesiredCapabilities desiredCapabilities = getDesiredCapabilities();
         URL appiumServer;
         try {
-            appiumServer = new URL(appURL);
+            appiumServer = new URL("http://localhost:4723/wd/hub");
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }
