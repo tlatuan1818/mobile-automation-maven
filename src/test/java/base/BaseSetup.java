@@ -26,10 +26,10 @@ public class BaseSetup {
         AppiumDriver<MobileElement> appiumDriver = null;
 
         DesiredCapabilities desiredCapabilities = getDesiredCapabilities();
-        URL appiumServer;
+        URL appiumServer = null; // Khởi tạo appiumServer với giá trị mặc định null
         try {
-            appiumServer =  new URL("http://localhost:4723/wd/hub");
-        }catch (MalformedURLException e) {
+            appiumServer = new URL("http://localhost:4723/wd/hub");
+        } catch (MalformedURLException e) {
             e.printStackTrace();
         }
        // Kiểm tra xem appiumServer có được khởi tạo thành công hay không
