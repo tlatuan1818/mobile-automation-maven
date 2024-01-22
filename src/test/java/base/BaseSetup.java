@@ -25,7 +25,7 @@ public class BaseSetup {
         }
     }
     public static AppiumDriver<MobileElement> getDriver() {
-        return appiumDriver = setAppiumDriver(System.getenv("APPIUM_SERVER_URL"));
+        return appiumDriver = getAppiumDriver(System.getenv("APPIUM_SERVER_URL"));
     }
     private void setAppiumDriver(String appURL) {
         appiumDriver = getAppiumDriver(appURL);
