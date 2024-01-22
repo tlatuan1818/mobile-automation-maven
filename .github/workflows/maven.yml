@@ -46,6 +46,7 @@ jobs:
   
     - name: Run APK
       run: |
+        ls -l 
         $ANDROID_SDK_ROOT/platform-tools/adb install -r mobile-automation-maven/tree/master/QrRM.apk
         $ANDROID_SDK_ROOT/platform-tools/adb shell am start -n quocviet.com.vn.qrrm/quocviet.com.vn.qrrm.LoginActivity
 
