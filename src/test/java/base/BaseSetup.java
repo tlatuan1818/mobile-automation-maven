@@ -23,23 +23,18 @@ public class BaseSetup {
         appiumDriver = getAppiumDriver(appURL);
     }
     private static AppiumDriver<MobileElement> getAppiumDriver(String appURL){
-        AppiumDriver<MobileElement> appiumDriver = null;
+       AppiumDriver<MobileElement> appiumDriver = null;
 
         DesiredCapabilities desiredCapabilities = getDesiredCapabilities();
-        String appiumServerURL = System.getenv("APPIUM_SERVER_URL");
-        URL appiumServer = null; // Khởi tạo appiumServer với giá trị mặc định null
+        URL appiumServer;
         try {
-            appiumServer = new URL(appiumServerURL);
+            appiumServer = new URL(System.getenv("APPIUM_SERVER_URL"));
         } catch (MalformedURLException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
-       // Kiểm tra xem appiumServer có được khởi tạo thành công hay không
-        if (appiumServer != null) {
-            appiumDriver = new AppiumDriver<>(appiumServer, desiredCapabilities);
-            appiumDriver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
-        } else {
-            System.out.println("Error initializing AppiumDriver: appiumServer is null");
-        }
+        appiumDriver = new AppiumDriver<>(appiumServer,desiredCapabilities);
+        appiumDriver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
+
         return appiumDriver;
     }
     @Parameters({"appURL"})
