@@ -6,4 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World!"
+        run: |
+         echo ls -l $ANDROID_SDK_ROOT/emulator
