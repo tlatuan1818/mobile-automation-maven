@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example" parallel="false">
+
+    <parameter name="appURL" value="http:localhost:4723/wd/hub" />
+    <listeners>
+        <listener class-name="utils.listeners.ReportListener"/>
+    </listeners>
+    <test name="sample test">
+        <classes>
+            <class name="testcases.ListenerTC">
+
+            </class>
+        </classes>
+    </test>
+</suite>
