@@ -28,11 +28,11 @@ public class BaseSetup {
         DesiredCapabilities desiredCapabilities = getDesiredCapabilities();
         URL appiumServer;
         try {
-            appiumServer = new URL(appURL);
-        } catch (MalformedURLException e) {
-            throw new RuntimeException(e);
+            appiumServer =  new URL("http://localhost:4723/wd/hub");
+        }catch (MalformedURLException e) {
+            e.printStackTrace();
         }
-        appiumDriver = new AndroidDriver<>(new URL("http://localhost:4723/wd/hub"), desiredCapabilities);
+        appiumDriver = new AndroidDriver<>(appiumServer, desiredCapabilities);
         appiumDriver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
 
         return appiumDriver;
