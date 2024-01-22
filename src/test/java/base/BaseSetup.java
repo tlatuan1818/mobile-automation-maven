@@ -2,6 +2,7 @@ package base;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
@@ -31,7 +32,7 @@ public class BaseSetup {
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }
-        appiumDriver = new AppiumDriver<>(appiumServer,desiredCapabilities);
+        appiumDriver = new AndroidDriver<>(new URL("http://localhost:4723/wd/hub"), desiredCapabilities);
         appiumDriver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
 
         return appiumDriver;
@@ -41,7 +42,7 @@ public class BaseSetup {
     public void initializeTestBaseSetup(String appURL) {
         try {
             // Khởi tạo driver
-            setAppiumDriver("http://127.0.0.1:4723/wd/hub");
+            setAppiumDriver(appURL);
         } catch (Exception e) {
             System.out.println("Error..." + e.getStackTrace());
         }
