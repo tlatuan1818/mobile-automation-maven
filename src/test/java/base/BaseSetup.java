@@ -32,9 +32,13 @@ public class BaseSetup {
         }catch (MalformedURLException e) {
             e.printStackTrace();
         }
-        appiumDriver = new AndroidDriver<>(appiumServer, desiredCapabilities);
-        appiumDriver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
-
+       // Kiểm tra xem appiumServer có được khởi tạo thành công hay không
+        if (appiumServer != null) {
+            appiumDriver = new AndroidDriver<>(appiumServer, desiredCapabilities);
+            appiumDriver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
+        } else {
+            System.out.println("Error initializing AppiumDriver: appiumServer is null");
+        }
         return appiumDriver;
     }
     @Parameters({"appURL"})
