@@ -15,7 +15,15 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseSetup {
     private static AppiumDriver<MobileElement> appiumDriver;
-
+    @BeforeClass
+    public void initializeTestBaseSetup() {
+        try {
+            // Khởi tạo driver
+            setAppiumDriver(System.getenv("APPIUM_SERVER_URL"));
+        } catch (Exception e) {
+            System.out.println("Error..." + e.getStackTrace());
+        }
+    }
     public static AppiumDriver<MobileElement> getDriver() {
         return appiumDriver;
     }
@@ -28,7 +36,7 @@ public class BaseSetup {
         DesiredCapabilities desiredCapabilities = getDesiredCapabilities();
         URL appiumServer;
         try {
-            appiumServer = new URL(System.getenv("APPIUM_SERVER_URL"));
+            appiumServer = new URL(appURL);
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }
@@ -37,16 +45,8 @@ public class BaseSetup {
 
         return appiumDriver;
     }
-    @Parameters({"appURL"})
-    @BeforeClass
-    public void initializeTestBaseSetup(String appURL) {
-        try {
-            // Khởi tạo driver
-            setAppiumDriver(appURL);
-        } catch (Exception e) {
-            System.out.println("Error..." + e.getStackTrace());
-        }
-    }
+   
+   
     @AfterClass
     public void tearDown() throws Exception {
         Thread.sleep(2000);
