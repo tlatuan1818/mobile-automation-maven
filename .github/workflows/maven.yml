@@ -39,7 +39,7 @@ jobs:
     
         echo "no" | avdmanager create avd --force --name testAVD --abi google_apis/x86_64 --package 'system-images;android-29;google_apis;x86_64'
         ls -l $ANDROID_SDK_ROOT/emulator/emulator
-        $ANDROID_SDK_ROOT/emulator -avd testAVD -no-window -no-audio -no-boot-anim &
+        $ANDROID_SDK_ROOT/emulator/emulator -avd testAVD -no-window -no-audio -no-boot-anim &
         sleep 60
         $ANDROID_SDK_ROOT/platform-tools/adb shell input keyevent 82 
    
