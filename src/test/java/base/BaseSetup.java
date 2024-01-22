@@ -26,9 +26,10 @@ public class BaseSetup {
         AppiumDriver<MobileElement> appiumDriver = null;
 
         DesiredCapabilities desiredCapabilities = getDesiredCapabilities();
+        String appiumServerURL = System.getenv("APPIUM_SERVER_URL");
         URL appiumServer = null; // Khởi tạo appiumServer với giá trị mặc định null
         try {
-            appiumServer = new URL("http://localhost:4723/wd/hub");
+            appiumServer = new URL(appiumServerURL);
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
