@@ -26,18 +26,14 @@ jobs:
       uses: android-actions/setup-android@v3
       with:
         cmdline-tools-version: 8512546
-    - name: Install Additional Dependencies
+   
+   
+    - name: Enable KVM
       run: |
-         sudo apt-get install -y libjaxb-api-java
-         export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac))))
-         sudo mkdir -p $JAVA_HOME/jmods
-         sudo ln -s /usr/share/java/jaxb-api.jar $JAVA_HOME/jmods/
-        
-    - name: Installed Packages
-      run: sdkmanager --install "platform-tools" "system-images;android-29;google_apis;x86_64" "emulator"
-    - name: Update PATH
-      run: |
-        export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
     - name: run tests
       uses: reactivecircus/android-emulator-runner@v2
       with:
@@ -46,15 +42,6 @@ jobs:
           arch: x86_64
           profile: Nexus 6
           script: ./gradlew connectedCheck
-    - name: Start Emulator
-      run: |
-    
-        #echo "no" | avdmanager create avd --force --name testAVD --abi google_apis/x86_64 --package 'system-images;android-29;google_apis;x86_64'
-        ls -l $ANDROID_SDK_ROOT
-        $ANDROID_SDK_ROOT/emulator -avd ${{ matrix.target }} -no-window -no-audio -no-boot-anim &
-        sleep 60
-        $ANDROID_SDK_ROOT/platform-tools/adb shell input keyevent 82 
-    
     - name: Run APK
       run: |
         $ANDROID_SDK_ROOT/platform-tools/adb install -r mobile-automation-maven/tree/master/QrRM.apk
