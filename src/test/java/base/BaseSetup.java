@@ -54,7 +54,7 @@ public class BaseSetup {
     private static DesiredCapabilities getDesiredCapabilities() {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-        desiredCapabilities.setCapability(MobileCapabilityType.UDID, "23098523020520");
+       
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "TC26");
         desiredCapabilities.setCapability("appPackage", "quocviet.com.vn.qrrm");
         desiredCapabilities.setCapability("appActivity", "quocviet.com.vn.qrrm.LoginActivity");
