@@ -95,7 +95,7 @@
                     <configuration>
                         <suiteXmlFiles>
                             <!-- Call Suite name global set up above -->
-                            <suiteXmlFile>src/main/java/suites/testing.xml</suiteXmlFile>
+                            <suiteXmlFile>src/test/java/suites/testing.xml</suiteXmlFile>
                         </suiteXmlFiles>
                         <argLine>
                             -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.21/aspectjweaver-1.9.21.jar"
