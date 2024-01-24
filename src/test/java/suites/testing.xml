@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Page Object test example" parallel="false">
 
-    <parameter name="appURL" value="http://10.1.0.42:4723/wd/hub" />
+    <parameter name="appURL" value="http://127.0.0.1:4723/wd/hub" />
     <listeners>
         <listener class-name="utils.listeners.ReportListener"/>
     </listeners>
