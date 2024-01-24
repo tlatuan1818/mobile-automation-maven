@@ -56,8 +56,11 @@ public class BaseSetup {
         appiumDriver.quit();
     }
     private static DesiredCapabilities getDesiredCapabilities() {
+        final String dir = System.getProperty("user.dir");
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-       
+        
+        desiredCapabilities.setCapability(MobileCapabilityType.APP, dir + "/QrRM.apk");
+        desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Appium");
         desiredCapabilities.setCapability("appPackage", "quocviet.com.vn.qrrm");
         desiredCapabilities.setCapability("appActivity", "quocviet.com.vn.qrrm.LoginActivity");
         return desiredCapabilities;
