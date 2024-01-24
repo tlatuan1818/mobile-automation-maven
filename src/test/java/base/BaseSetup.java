@@ -2,7 +2,6 @@ package base;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterClass;
@@ -57,12 +56,10 @@ public class BaseSetup {
         appiumDriver.quit();
     }
     private static DesiredCapabilities getDesiredCapabilities() {
-         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
+        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-        
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UIAutomator2");
-        desiredCapabilities.setCapability("uiautomator2ServerInstallTimeout", 60000);
-        desiredCapabilities.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + "QrRM.apk");
+        desiredCapabilities.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + "\\QrRM.apk");
       
         return desiredCapabilities;
     }

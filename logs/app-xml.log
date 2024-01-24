@@ -69,3 +69,162 @@
 [INFO ] 22-01-2024 11:44:48 [main] Log - skipTest test is starting...
 [WARN ] 22-01-2024 11:44:48 [main] Log - skipTest test is skipped.
 [INFO ] 22-01-2024 11:44:50 [main] Log - End testing sample test
+[INFO ] 24-01-2024 15:02:21 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 15:02:21 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:02:21 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android, uiautomator2ServerInstallTimeout: 60000}
+[ERROR] 24-01-2024 15:02:21 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:02:22 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 15:02:22 [main] Log - Login test is starting...
+[ERROR] 24-01-2024 15:02:22 [main] Log - null
+[ERROR] 24-01-2024 15:02:22 [main] Log - Login test is failed.
+[ERROR] 24-01-2024 15:02:22 [main] Log - Screenshot captured for test case: Login
+[INFO ] 24-01-2024 15:02:22 [main] Log - checkTitle test is starting...
+[ERROR] 24-01-2024 15:02:22 [main] Log - checkTitle test is failed.
+[ERROR] 24-01-2024 15:02:22 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 24-01-2024 15:02:22 [main] Log - skipTest test is starting...
+[WARN ] 24-01-2024 15:02:22 [main] Log - skipTest test is skipped.
+[INFO ] 24-01-2024 15:02:24 [main] Log - End testing sample test
+[INFO ] 24-01-2024 15:04:26 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 15:04:26 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:04:26 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android, uiautomator2ServerInstallTimeout: 60000}
+[ERROR] 24-01-2024 15:04:26 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:04:27 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 15:04:27 [main] Log - Login test is starting...
+[ERROR] 24-01-2024 15:04:27 [main] Log - null
+[ERROR] 24-01-2024 15:06:13 [main] Log - Login test is failed.
+[ERROR] 24-01-2024 15:06:13 [main] Log - Screenshot captured for test case: Login
+[INFO ] 24-01-2024 15:06:13 [main] Log - checkTitle test is starting...
+[ERROR] 24-01-2024 15:06:13 [main] Log - checkTitle test is failed.
+[ERROR] 24-01-2024 15:06:13 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 24-01-2024 15:06:13 [main] Log - skipTest test is starting...
+[WARN ] 24-01-2024 15:06:13 [main] Log - skipTest test is skipped.
+[INFO ] 24-01-2024 15:06:15 [main] Log - End testing sample test
+[INFO ] 24-01-2024 15:07:14 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 15:07:14 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:07:14 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android, uiautomator2ServerInstallTimeout: 60000}
+[ERROR] 24-01-2024 15:07:14 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:07:14 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 15:07:14 [main] Log - Login test is starting...
+[ERROR] 24-01-2024 15:07:15 [main] Log - null
+[ERROR] 24-01-2024 15:07:15 [main] Log - Login test is failed.
+[ERROR] 24-01-2024 15:07:15 [main] Log - Screenshot captured for test case: Login
+[INFO ] 24-01-2024 15:07:15 [main] Log - checkTitle test is starting...
+[ERROR] 24-01-2024 15:07:15 [main] Log - checkTitle test is failed.
+[ERROR] 24-01-2024 15:07:15 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 24-01-2024 15:07:15 [main] Log - skipTest test is starting...
+[WARN ] 24-01-2024 15:07:15 [main] Log - skipTest test is skipped.
+[INFO ] 24-01-2024 15:07:17 [main] Log - End testing sample test
+[INFO ] 24-01-2024 15:07:37 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 15:08:30 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:08:30 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android, uiautomator2ServerInstallTimeout: 60000}
+[ERROR] 24-01-2024 15:08:30 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[INFO ] 24-01-2024 15:08:40 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 15:09:09 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:09:10 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android, uiautomator2ServerInstallTimeout: 60000}
+[ERROR] 24-01-2024 15:09:14 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:16:07 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 15:16:07 [main] Log - Login test is starting...
+[INFO ] 24-01-2024 15:16:12 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 15:16:18 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:16:18 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android, uiautomator2ServerInstallTimeout: 60000}
+[ERROR] 24-01-2024 15:16:19 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:16:58 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 15:17:02 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 15:17:05 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:17:06 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android, uiautomator2ServerInstallTimeout: 60000}
+[ERROR] 24-01-2024 15:17:07 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:19:47 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 15:19:52 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 15:19:59 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[ERROR] 24-01-2024 15:19:59 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android, uiautomator2ServerInstallTimeout: 60000}
+[ERROR] 24-01-2024 15:23:40 [main] Log - Appium Server URL: http://127.0.0.1:4723/wd/hub
+[INFO ] 24-01-2024 15:23:43 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 15:23:52 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 15:23:52 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android, uiautomator2ServerInstallTimeout: 60000}
+[ERROR] 24-01-2024 15:23:53 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 15:24:31 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 15:24:31 [main] Log - Login test is starting...
+[ERROR] 24-01-2024 15:24:31 [main] Log - null
+[ERROR] 24-01-2024 15:40:58 [main] Log - Login test is failed.
+[ERROR] 24-01-2024 15:40:58 [main] Log - Screenshot captured for test case: Login
+[INFO ] 24-01-2024 15:41:06 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 15:41:06 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 15:41:06 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android, uiautomator2ServerInstallTimeout: 60000}
+[ERROR] 24-01-2024 15:41:06 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 15:42:25 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 15:42:29 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 15:42:30 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 15:42:30 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android, uiautomator2ServerInstallTimeout: 60000}
+[ERROR] 24-01-2024 15:42:30 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 15:44:36 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 15:44:40 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 15:44:40 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 15:44:40 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android}
+[ERROR] 24-01-2024 15:44:40 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:03:56 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 16:04:21 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 16:04:21 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:04:21 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android}
+[ERROR] 24-01-2024 16:04:21 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:19:40 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 16:19:44 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 16:19:44 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:19:44 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android}
+[ERROR] 24-01-2024 16:19:44 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:24:31 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 16:24:31 [main] Log - Login test is starting...
+[INFO ] 24-01-2024 16:24:34 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 16:24:34 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:24:34 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android}
+[ERROR] 24-01-2024 16:24:34 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:36:38 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 16:36:38 [main] Log - Login test is starting...
+[INFO ] 24-01-2024 16:36:41 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 16:36:41 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:36:41 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android}
+[ERROR] 24-01-2024 16:36:41 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:41:30 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 16:41:33 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 16:41:33 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:41:33 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android}
+[ERROR] 24-01-2024 16:41:33 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:43:30 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 16:43:33 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 16:43:33 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:43:33 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android}
+[ERROR] 24-01-2024 16:43:33 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:44:45 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 16:44:48 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 16:44:48 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:44:48 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android}
+[ERROR] 24-01-2024 16:44:48 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:48:45 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 16:48:48 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 16:48:48 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:48:48 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android}
+[ERROR] 24-01-2024 16:48:48 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:49:07 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 24-01-2024 16:49:07 [main] Log - Login test is starting...
+[ERROR] 24-01-2024 16:49:07 [main] Log - null
+[ERROR] 24-01-2024 16:49:07 [main] Log - Login test is failed.
+[ERROR] 24-01-2024 16:49:07 [main] Log - Screenshot captured for test case: Login
+[INFO ] 24-01-2024 16:49:07 [main] Log - checkTitle test is starting...
+[ERROR] 24-01-2024 16:49:07 [main] Log - checkTitle test is failed.
+[ERROR] 24-01-2024 16:49:07 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 24-01-2024 16:49:07 [main] Log - skipTest test is starting...
+[WARN ] 24-01-2024 16:49:07 [main] Log - skipTest test is skipped.
+[INFO ] 24-01-2024 16:49:09 [main] Log - End testing sample test
+[INFO ] 24-01-2024 16:50:22 [main] Log - Start testing sample test
+[ERROR] 24-01-2024 16:50:22 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[ERROR] 24-01-2024 16:50:22 [main] Log - Desired Capabilities: Capabilities {app: C:\Users\TramLeAnhTuan\OneD..., automationName: UIAutomator2, platformName: Android}
+[ERROR] 24-01-2024 16:50:22 [main] Log - Appium Server URL: http://127.0.0.1:4723/
+[INFO ] 24-01-2024 16:51:05 [main] Log - Appium driver is successfully initialized.
+[INFO ] 24-01-2024 16:51:05 [main] Log - Login test is starting...
+[ERROR] 24-01-2024 16:51:05 [main] Log - io.appium.java_client.AppiumDriver, Capabilities: {app=C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\QrRM.apk, appPackage=quocviet.com.vn.qrrm, automationName=UIAutomator2, databaseEnabled=false, desired={platformName=android, app=C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\QrRM.apk, automationName=UIAutomator2}, deviceApiLevel=34, deviceManufacturer=Google, deviceModel=sdk_gphone64_x86_64, deviceName=emulator-5554, deviceScreenDensity=440, deviceScreenSize=1080x2340, deviceUDID=emulator-5554, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.75, platform=LINUX, platformName=Android, platformVersion=14, statBarHeight=145, takesScreenshot=true, viewportRect={left=0, top=145, width=1080, height=2195}, warnings={}, webStorageEnabled=false}
+[INFO ] 24-01-2024 16:51:09 [main] Log - Login test is passed.
+[INFO ] 24-01-2024 16:51:09 [main] Log - checkTitle test is starting...
+[ERROR] 24-01-2024 16:51:09 [main] Log - checkTitle test is failed.
+[ERROR] 24-01-2024 16:51:09 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 24-01-2024 16:51:09 [main] Log - skipTest test is starting...
+[WARN ] 24-01-2024 16:51:09 [main] Log - skipTest test is skipped.
+[INFO ] 24-01-2024 16:51:12 [main] Log - End testing sample test
