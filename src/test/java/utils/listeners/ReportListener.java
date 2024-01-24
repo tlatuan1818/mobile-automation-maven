@@ -78,16 +78,16 @@ public class ReportListener implements ITestListener {
     @Override
     public void onTestFailure(ITestResult iTestResult) {
         
-       // appiumDriver = BaseSetup.getDriver();
+        appiumDriver = BaseSetup.getDriver();
         Log.error(getTestName(iTestResult) + " test is failed.");
 
-       // ExtentTestManager.addScreenShot(Status.FAIL, getTestName(iTestResult));
+        ExtentTestManager.addScreenShot(Status.FAIL, getTestName(iTestResult));
 
-       // ExtentTestManager.logMessage(Status.FAIL, iTestResult.getThrowable().toString());
-        //ExtentTestManager.logMessage(Status.FAIL, iTestResult.getName() + " is failed.");
+        ExtentTestManager.logMessage(Status.FAIL, iTestResult.getThrowable().toString());
+        ExtentTestManager.logMessage(Status.FAIL, iTestResult.getName() + " is failed.");
         //Allure Screenshot custom
         Log.error("Screenshot captured for test case: " + getTestName(iTestResult));
-        //saveScreenshotPNG(appiumDriver);
+        saveScreenshotPNG(appiumDriver);
         //Save a log on Allure report.
         saveTextLog(getTestName(iTestResult) + " failed and screenshot taken!");
     }

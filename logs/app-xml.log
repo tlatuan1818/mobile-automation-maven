@@ -228,3 +228,31 @@
 [INFO ] 24-01-2024 16:51:09 [main] Log - skipTest test is starting...
 [WARN ] 24-01-2024 16:51:09 [main] Log - skipTest test is skipped.
 [INFO ] 24-01-2024 16:51:12 [main] Log - End testing sample test
+[INFO ] 25-01-2024 00:12:45 [main] Log - Start testing sample test
+[ERROR] 25-01-2024 00:13:08 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 25-01-2024 00:13:08 [main] Log - Login test is starting...
+[ERROR] 25-01-2024 00:13:09 [main] Log - Login test is failed.
+[ERROR] 25-01-2024 00:13:09 [main] Log - Login test is failed.
+[INFO ] 25-01-2024 00:13:09 [main] Log - End testing sample test
+[INFO ] 25-01-2024 00:15:52 [main] Log - Start testing sample test
+[ERROR] 25-01-2024 00:16:13 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 25-01-2024 00:16:13 [main] Log - Login test is starting...
+[ERROR] 25-01-2024 00:16:13 [main] Log - Login test is failed.
+[ERROR] 25-01-2024 00:16:13 [main] Log - Login test is failed.
+[INFO ] 25-01-2024 00:16:13 [main] Log - End testing sample test
+[INFO ] 25-01-2024 00:17:25 [main] Log - Start testing sample test
+[ERROR] 25-01-2024 00:17:46 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 25-01-2024 00:17:46 [main] Log - Login test is starting...
+[ERROR] 25-01-2024 00:17:47 [main] Log - Login test is failed.
+[ERROR] 25-01-2024 00:17:47 [main] Log - Login test is failed.
+[INFO ] 25-01-2024 00:17:47 [main] Log - End testing sample test
+[INFO ] 25-01-2024 00:18:15 [main] Log - Start testing sample test
+[INFO ] 25-01-2024 00:18:28 [main] Log - Appium driver is successfully initialized.
+[INFO ] 25-01-2024 00:18:28 [main] Log - Login test is starting...
+[INFO ] 25-01-2024 00:18:32 [main] Log - Login test is passed.
+[INFO ] 25-01-2024 00:18:32 [main] Log - checkTitle test is starting...
+[ERROR] 25-01-2024 00:18:32 [main] Log - checkTitle test is failed.
+[ERROR] 25-01-2024 00:18:33 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 25-01-2024 00:18:34 [main] Log - skipTest test is starting...
+[WARN ] 25-01-2024 00:18:34 [main] Log - skipTest test is skipped.
+[INFO ] 25-01-2024 00:18:36 [main] Log - End testing sample test

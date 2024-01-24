@@ -20,7 +20,7 @@ public class LoginPage {
     private By btn_message_notify_submit = By.id("quocviet.com.vn.qrrm:id/btn_message_notify_submit");
     public LoginPage(AppiumDriver<MobileElement> appiumDriver) {
         this.appiumDriver = appiumDriver;
-        Log.error(appiumDriver);
+
     }
     // Sau khi thực hiện click Submit thì khởi tạo trang DashboardPage
     public void Login(String username, String password) throws Exception {
