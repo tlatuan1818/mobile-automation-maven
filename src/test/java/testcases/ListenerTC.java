@@ -25,6 +25,11 @@ public class ListenerTC extends BaseSetup {
     @Description("Khoi tao Driver")
     public void setUp() {
         appiumDriver = getDriver();
+          if (appiumDriver == null) {
+                System.out.println("Appium driver is null. Check driver initialization.");
+            } else {
+                System.out.println("Appium driver is successfully initialized.");
+            }
     }
 
 
