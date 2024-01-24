@@ -5,7 +5,7 @@ import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-
+import utils.Logs.Log;
 import java.io.*;
 import java.time.LocalDate;
 import java.util.concurrent.TimeUnit;
@@ -20,6 +20,7 @@ public class LoginPage {
     private By btn_message_notify_submit = By.id("quocviet.com.vn.qrrm:id/btn_message_notify_submit");
     public LoginPage(AppiumDriver<MobileElement> appiumDriver) {
         this.appiumDriver = appiumDriver;
+        Log.error(appiumDriver);
     }
     // Sau khi thực hiện click Submit thì khởi tạo trang DashboardPage
     public void Login(String username, String password) throws Exception {
