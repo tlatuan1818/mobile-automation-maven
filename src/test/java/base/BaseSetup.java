@@ -19,7 +19,7 @@ public class BaseSetup {
     public void initializeTestBaseSetup() {
         try {
             // Khởi tạo driver
-            setAppiumDriver("http://localhost:4723/wd/hub"));
+            setAppiumDriver("http://localhost:4723/wd/hub");
         } catch (Exception e) {
             System.out.println("Error..." + e.getStackTrace());
         }
