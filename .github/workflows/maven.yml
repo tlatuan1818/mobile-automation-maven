@@ -46,6 +46,9 @@ jobs:
         $ANDROID_SDK_ROOT/emulator/emulator -avd testAVD -no-window -no-audio -no-boot-anim &
         sleep 60
         $ANDROID_SDK_ROOT/platform-tools/adb shell input keyevent 82 
+    - name: Install UIAutomator2
+      run: appium driver install uiautomator2
+    
     - name: Start Appium server
       run: appium &
     - name: Build with Maven
