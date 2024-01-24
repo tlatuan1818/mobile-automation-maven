@@ -35,8 +35,8 @@ public class BaseSetup {
        AppiumDriver<MobileElement> appiumDriver = null;
 
         DesiredCapabilities desiredCapabilities = getDesiredCapabilities();
-        Log.info("Appium Server URL: " + appURL);
-        Log.info("Desired Capabilities: " + desiredCapabilities.toString());
+        Log.error("Appium Server URL: " + appURL);
+        Log.error("Desired Capabilities: " + desiredCapabilities.toString());
         URL appiumServer;
         try {
             appiumServer = new URL(appURL);
@@ -57,9 +57,7 @@ public class BaseSetup {
     }
     private static DesiredCapabilities getDesiredCapabilities() {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-        desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
        
-        desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "TC26");
         desiredCapabilities.setCapability("appPackage", "quocviet.com.vn.qrrm");
         desiredCapabilities.setCapability("appActivity", "quocviet.com.vn.qrrm.LoginActivity");
         return desiredCapabilities;
