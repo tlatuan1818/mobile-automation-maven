@@ -59,7 +59,7 @@ public class BaseSetup {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UIAutomator2");
-        desiredCapabilities.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + "\\QrRM.apk");
+        desiredCapabilities.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + "/QrRM.apk");
       
         return desiredCapabilities;
     }
