@@ -58,7 +58,7 @@ public class BaseSetup {
     private static DesiredCapabilities getDesiredCapabilities() {
         final String dir = System.getProperty("user.dir");
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-        
+        Log.error(dir + "/QrRM.apk");
         desiredCapabilities.setCapability(MobileCapabilityType.APP, dir + "/QrRM.apk");
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Appium");
         desiredCapabilities.setCapability("appPackage", "quocviet.com.vn.qrrm");
