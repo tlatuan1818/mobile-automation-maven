@@ -40,6 +40,7 @@ public class BaseSetup {
         URL appiumServer;
         try {
             appiumServer = new URL(appURL);
+            Log.error("Appium Server URL: " + appiumServer);
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }
@@ -56,16 +57,13 @@ public class BaseSetup {
         appiumDriver.quit();
     }
     private static DesiredCapabilities getDesiredCapabilities() {
-        final String dir = System.getProperty("user.dir");
-        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-        Log.error(dir + "/QrRM.apk");
-        desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
-        desiredCapabilities.setCapability(MobileCapabilityType.APP, dir + "/QrRM.apk");
-        desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Appium");
+         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
-        desiredCapabilities.setCapability(MobileCapabilityType.UDID, "emulator-5554");
-        //desiredCapabilities.setCapability("appPackage", "quocviet.com.vn.qrrm");
-        //desiredCapabilities.setCapability("appActivity", "quocviet.com.vn.qrrm.LoginActivity");
+        
+        desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UIAutomator2");
+        desiredCapabilities.setCapability("uiautomator2ServerInstallTimeout", 60000);
+        desiredCapabilities.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + "QrRM.apk");
+      
         return desiredCapabilities;
     }
 }
