@@ -19,13 +19,13 @@ public class BaseSetup {
     public void initializeTestBaseSetup() {
         try {
             // Khởi tạo driver
-            setAppiumDriver(System.getenv("APPIUM_SERVER_URL"));
+            setAppiumDriver("http://localhost:4723/wd/hub"));
         } catch (Exception e) {
             System.out.println("Error..." + e.getStackTrace());
         }
     }
     public static AppiumDriver<MobileElement> getDriver() {
-        return appiumDriver = getAppiumDriver(System.getenv("APPIUM_SERVER_URL"));
+        return appiumDriver = getAppiumDriver("http://localhost:4723/wd/hub");
     }
     private void setAppiumDriver(String appURL) {
         appiumDriver = getAppiumDriver(appURL);
