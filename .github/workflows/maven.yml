@@ -50,16 +50,16 @@ jobs:
         $ANDROID_SDK_ROOT/emulator/emulator -avd testAVD -no-window -no-audio -no-boot-anim &
         sleep 60
         $ANDROID_SDK_ROOT/platform-tools/adb shell input keyevent 82 
-   
+    - name: Start Appium server
+      run: appium &
   
     - name: Run APK
       run: |
-        
+        $ANDROID_SDK_ROOT/platform-tools/adb devices
         $ANDROID_SDK_ROOT/platform-tools/adb install -r QrRM.apk
-        $ANDROID_SDK_ROOT/platform-tools/adb shell am start -n quocviet.com.vn.qrrm/quocviet.com.vn.qrrm.LoginActivity
+        #$ANDROID_SDK_ROOT/platform-tools/adb shell am start -n quocviet.com.vn.qrrm/quocviet.com.vn.qrrm.LoginActivity
     
-    - name: Start Appium server
-      run: appium &
+   
     - name: Build with Maven
       run: mvn -B package --file pom.xml
       env:
