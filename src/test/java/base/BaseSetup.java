@@ -62,6 +62,8 @@ public class BaseSetup {
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
         desiredCapabilities.setCapability(MobileCapabilityType.APP, dir + "/QrRM.apk");
         desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "Appium");
+        desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+        desiredCapabilities.setCapability(MobileCapabilityType.UDID, "emulator-5554");
         desiredCapabilities.setCapability("appPackage", "quocviet.com.vn.qrrm");
         desiredCapabilities.setCapability("appActivity", "quocviet.com.vn.qrrm.LoginActivity");
         return desiredCapabilities;
