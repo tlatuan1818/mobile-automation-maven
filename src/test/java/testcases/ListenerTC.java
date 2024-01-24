@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static java.lang.Thread.sleep;
-
+import utils.Logs.Log;
 @Epic("Login test Qrcode")
 @Feature("ListenerTC")
 public class ListenerTC extends BaseSetup {
@@ -26,9 +26,9 @@ public class ListenerTC extends BaseSetup {
     public void setUp() {
         appiumDriver = getDriver();
           if (appiumDriver == null) {
-                System.out.println("Appium driver is null. Check driver initialization.");
+                Log.error("Appium driver is null. Check driver initialization.");
             } else {
-                System.out.println("Appium driver is successfully initialized.");
+                Log.info("Appium driver is successfully initialized.");
             }
     }
 
