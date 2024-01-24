@@ -15,17 +15,18 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseSetup {
     private static AppiumDriver<MobileElement> appiumDriver;
+    @Parameters({"appURL"})
     @BeforeClass
-    public void initializeTestBaseSetup() {
+    public void initializeTestBaseSetup(String appURL) {
         try {
             // Khởi tạo driver
-            setAppiumDriver("http://localhost:4723/wd/hub");
+            setAppiumDriver(appURL);
         } catch (Exception e) {
             System.out.println("Error..." + e.getStackTrace());
         }
     }
     public static AppiumDriver<MobileElement> getDriver() {
-        return appiumDriver = getAppiumDriver("http://localhost:4723/wd/hub");
+        return appiumDriver;
     }
     private void setAppiumDriver(String appURL) {
         appiumDriver = getAppiumDriver(appURL);
