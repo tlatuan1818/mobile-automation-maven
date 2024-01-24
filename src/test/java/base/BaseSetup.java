@@ -34,12 +34,11 @@ public class BaseSetup {
        AppiumDriver<MobileElement> appiumDriver = null;
 
         DesiredCapabilities desiredCapabilities = getDesiredCapabilities();
-        Log.error("Appium Server URL: " + appURL);
-        Log.error("Desired Capabilities: " + desiredCapabilities.toString());
+        
         URL appiumServer;
         try {
             appiumServer = new URL(appURL);
-            Log.error("Appium Server URL: " + appiumServer);
+           
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }
