@@ -15,13 +15,15 @@ import org.testng.annotations.Test;
 
 import static java.lang.Thread.sleep;
 import utils.Logs.Log;
+import utils.extentreport.JiraCreateIssue;
+
 @Epic("Login test Qrcode")
 @Feature("ListenerTC")
 public class ListenerTC extends BaseSetup {
     private AppiumDriver<MobileElement> appiumDriver;
     public LoginPage loginPage;
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     @Description("Khoi tao Driver")
     public void setUp() {
         appiumDriver = getDriver();
@@ -32,7 +34,7 @@ public class ListenerTC extends BaseSetup {
             }
     }
 
-
+    @JiraCreateIssue(isCreateIssue=true)
     @Test(priority = 1 , description = "Sign in page to Qrcode system")
     @Step("Sign in page to Qrcode system")
     public void Login() throws Exception {
@@ -40,8 +42,9 @@ public class ListenerTC extends BaseSetup {
 
         loginPage.Login("tramleanh.tuan","1234");
         sleep(1000);
-        //System.out.print(loginPage.getErrorMessage());
+        Assert.assertEquals(loginPage.getErrorMessage(),"Đăng nhập thành công","Login the app do not match");
     }
+    @JiraCreateIssue(isCreateIssue=true)
     @Test(priority = 2, description = "CheckTitle")
     @Step("Check Title")
     public void checkTitle() {

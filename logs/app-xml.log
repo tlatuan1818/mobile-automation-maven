@@ -256,3 +256,688 @@
 [INFO ] 25-01-2024 00:18:34 [main] Log - skipTest test is starting...
 [WARN ] 25-01-2024 00:18:34 [main] Log - skipTest test is skipped.
 [INFO ] 25-01-2024 00:18:36 [main] Log - End testing sample test
+[INFO ] 29-01-2024 13:08:35 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:12:01 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:32:05 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:34:14 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:35:33 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:35:40 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:35:48 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:35:56 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:36:03 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:36:28 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:36:35 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:36:43 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:36:51 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:36:58 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:37:06 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:37:14 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:37:22 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:37:30 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:37:38 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:37:46 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:37:53 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:38:01 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:38:09 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:38:16 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:41:26 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:41:33 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:42:11 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:45:03 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:45:43 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:46:57 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:47:45 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 13:48:53 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 14:54:44 [main] Log - Start testing sample test
+[ERROR] 29-01-2024 14:54:45 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 29-01-2024 14:54:45 [main] Log - Login test is starting...
+[ERROR] 29-01-2024 14:54:46 [main] Log - Login test is failed.
+[ERROR] 29-01-2024 14:54:46 [main] Log - Login test is failed.
+[INFO ] 29-01-2024 14:54:46 [main] Log - End testing sample test
+[INFO ] 29-01-2024 14:55:33 [main] Log - Start testing sample test
+[ERROR] 29-01-2024 14:55:34 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 29-01-2024 14:55:34 [main] Log - Login test is starting...
+[ERROR] 29-01-2024 14:55:34 [main] Log - Login test is failed.
+[ERROR] 29-01-2024 14:55:34 [main] Log - Login test is failed.
+[INFO ] 29-01-2024 14:55:34 [main] Log - End testing sample test
+[INFO ] 29-01-2024 14:56:10 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 14:56:52 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 14:57:01 [main] Log - Appium driver is successfully initialized.
+[INFO ] 29-01-2024 14:57:01 [main] Log - Login test is starting...
+[INFO ] 29-01-2024 14:57:05 [main] Log - Login test is passed.
+[INFO ] 29-01-2024 14:57:05 [main] Log - checkTitle test is starting...
+[ERROR] 29-01-2024 14:57:05 [main] Log - checkTitle test is failed.
+[ERROR] 29-01-2024 14:57:06 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 29-01-2024 14:57:06 [main] Log - skipTest test is starting...
+[WARN ] 29-01-2024 14:57:06 [main] Log - skipTest test is skipped.
+[INFO ] 29-01-2024 14:57:08 [main] Log - End testing sample test
+[INFO ] 29-01-2024 15:02:26 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 15:02:33 [main] Log - Appium driver is successfully initialized.
+[INFO ] 29-01-2024 15:02:33 [main] Log - Login test is starting...
+[INFO ] 29-01-2024 15:02:38 [main] Log - Login test is passed.
+[INFO ] 29-01-2024 15:02:38 [main] Log - checkTitle test is starting...
+[ERROR] 29-01-2024 15:02:38 [main] Log - checkTitle test is failed.
+[ERROR] 29-01-2024 15:02:39 [main] Log - Screenshot captured for test case: checkTitle
+[ERROR] 29-01-2024 15:02:39 [main] Log - checkTitle test is failed.
+[ERROR] 29-01-2024 15:02:40 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 29-01-2024 15:02:40 [main] Log - End testing sample test
+[INFO ] 29-01-2024 15:03:56 [main] Log - Start testing sample test
+[ERROR] 29-01-2024 15:03:57 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 29-01-2024 15:03:57 [main] Log - Login test is starting...
+[ERROR] 29-01-2024 15:03:57 [main] Log - Login test is failed.
+[ERROR] 29-01-2024 15:03:57 [main] Log - Login test is failed.
+[INFO ] 29-01-2024 15:03:57 [main] Log - End testing sample test
+[INFO ] 29-01-2024 15:05:09 [main] Log - Start testing sample test
+[ERROR] 29-01-2024 15:06:42 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 29-01-2024 15:06:42 [main] Log - Login test is starting...
+[ERROR] 29-01-2024 15:06:42 [main] Log - Login test is failed.
+[ERROR] 29-01-2024 15:06:42 [main] Log - Login test is failed.
+[INFO ] 29-01-2024 15:06:42 [main] Log - End testing sample test
+[INFO ] 29-01-2024 15:06:50 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 15:06:55 [main] Log - Appium driver is successfully initialized.
+[INFO ] 29-01-2024 15:06:55 [main] Log - Login test is starting...
+[INFO ] 29-01-2024 15:06:59 [main] Log - Login test is passed.
+[INFO ] 29-01-2024 15:07:00 [main] Log - checkTitle test is starting...
+[ERROR] 29-01-2024 15:07:00 [main] Log - checkTitle test is failed.
+[ERROR] 29-01-2024 15:07:00 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 29-01-2024 15:07:01 [main] Log - skipTest test is starting...
+[WARN ] 29-01-2024 15:07:01 [main] Log - skipTest test is skipped.
+[INFO ] 29-01-2024 15:07:03 [main] Log - End testing sample test
+[INFO ] 29-01-2024 15:08:00 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 15:08:05 [main] Log - Appium driver is successfully initialized.
+[INFO ] 29-01-2024 15:08:05 [main] Log - Login test is starting...
+[INFO ] 29-01-2024 15:08:10 [main] Log - Login test is passed.
+[INFO ] 29-01-2024 15:08:10 [main] Log - checkTitle test is starting...
+[ERROR] 29-01-2024 15:08:10 [main] Log - checkTitle test is failed.
+[ERROR] 29-01-2024 15:08:10 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 29-01-2024 15:08:11 [main] Log - skipTest test is starting...
+[WARN ] 29-01-2024 15:08:11 [main] Log - skipTest test is skipped.
+[INFO ] 29-01-2024 15:08:14 [main] Log - End testing sample test
+[INFO ] 29-01-2024 15:11:06 [main] Log - Start testing sample test
+[INFO ] 29-01-2024 15:11:49 [main] Log - Appium driver is successfully initialized.
+[INFO ] 29-01-2024 15:11:49 [main] Log - Login test is starting...
+[INFO ] 29-01-2024 15:11:53 [main] Log - Login test is passed.
+[INFO ] 29-01-2024 15:11:53 [main] Log - checkTitle test is starting...
+[ERROR] 29-01-2024 15:11:53 [main] Log - checkTitle test is failed.
+[ERROR] 29-01-2024 15:11:53 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 29-01-2024 16:55:21 [main] Log - skipTest test is starting...
+[WARN ] 29-01-2024 16:55:21 [main] Log - skipTest test is skipped.
+[INFO ] 29-01-2024 16:55:23 [main] Log - End testing sample test
+[INFO ] 30-01-2024 12:55:08 [main] Log - Start testing sample test
+[ERROR] 30-01-2024 12:55:16 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 30-01-2024 12:55:16 [main] Log - Login test is starting...
+[WARN ] 30-01-2024 12:55:16 [main] Log - Login test is skipped.
+[INFO ] 30-01-2024 12:55:16 [main] Log - checkTitle test is starting...
+[WARN ] 30-01-2024 12:55:16 [main] Log - checkTitle test is skipped.
+[INFO ] 30-01-2024 12:55:16 [main] Log - skipTest test is starting...
+[WARN ] 30-01-2024 12:55:16 [main] Log - skipTest test is skipped.
+[INFO ] 30-01-2024 12:55:16 [main] Log - End testing sample test
+[INFO ] 30-01-2024 12:55:56 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 12:56:51 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 12:58:40 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 13:01:10 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 13:05:43 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 13:05:45 [main] Log - Login test is starting...
+[WARN ] 30-01-2024 13:05:46 [main] Log - Login test is skipped.
+[INFO ] 30-01-2024 13:05:46 [main] Log - checkTitle test is starting...
+[WARN ] 30-01-2024 13:05:46 [main] Log - checkTitle test is skipped.
+[INFO ] 30-01-2024 13:05:46 [main] Log - skipTest test is starting...
+[WARN ] 30-01-2024 13:05:46 [main] Log - skipTest test is skipped.
+[INFO ] 30-01-2024 13:05:46 [main] Log - End testing sample test
+[INFO ] 30-01-2024 13:07:39 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 13:07:50 [main] Log - Login test is starting...
+[WARN ] 30-01-2024 13:07:50 [main] Log - Login test is skipped.
+[INFO ] 30-01-2024 13:07:50 [main] Log - checkTitle test is starting...
+[WARN ] 30-01-2024 13:07:50 [main] Log - checkTitle test is skipped.
+[INFO ] 30-01-2024 13:07:50 [main] Log - skipTest test is starting...
+[WARN ] 30-01-2024 13:07:50 [main] Log - skipTest test is skipped.
+[INFO ] 30-01-2024 13:07:50 [main] Log - End testing sample test
+[INFO ] 30-01-2024 13:09:58 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 13:12:03 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 13:12:28 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 13:12:28 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 13:12:33 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 13:12:33 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 13:12:33 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 13:12:33 [main] Log - Screenshot captured for test case: checkTitle
+[ERROR] 30-01-2024 13:12:34 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 13:12:34 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 13:12:34 [main] Log - End testing sample test
+[INFO ] 30-01-2024 13:13:21 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 13:13:33 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 13:13:33 [main] Log - Login test is starting...
+[ERROR] 30-01-2024 13:13:35 [main] Log - Login test is failed.
+[ERROR] 30-01-2024 13:13:35 [main] Log - Screenshot captured for test case: Login
+[ERROR] 30-01-2024 13:14:23 [main] Log - Login test is failed.
+[INFO ] 30-01-2024 13:22:57 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 13:23:03 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 13:23:03 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 13:23:08 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 13:23:08 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 13:23:08 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 13:23:08 [main] Log - Screenshot captured for test case: checkTitle
+[ERROR] 30-01-2024 13:23:36 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 13:23:37 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 13:23:44 [main] Log - End testing sample test
+[INFO ] 30-01-2024 13:36:09 [main] Log - Start testing sample test
+[ERROR] 30-01-2024 13:36:10 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 30-01-2024 13:36:10 [main] Log - Login test is starting...
+[WARN ] 30-01-2024 13:36:10 [main] Log - Login test is skipped.
+[INFO ] 30-01-2024 13:36:10 [main] Log - checkTitle test is starting...
+[WARN ] 30-01-2024 13:36:10 [main] Log - checkTitle test is skipped.
+[INFO ] 30-01-2024 13:36:10 [main] Log - skipTest test is starting...
+[WARN ] 30-01-2024 13:36:10 [main] Log - skipTest test is skipped.
+[INFO ] 30-01-2024 13:36:10 [main] Log - End testing sample test
+[INFO ] 30-01-2024 13:44:49 [main] Log - Start testing sample test
+[ERROR] 30-01-2024 13:44:49 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 30-01-2024 13:44:49 [main] Log - Login test is starting...
+[WARN ] 30-01-2024 13:44:50 [main] Log - Login test is skipped.
+[INFO ] 30-01-2024 13:44:50 [main] Log - checkTitle test is starting...
+[WARN ] 30-01-2024 13:44:50 [main] Log - checkTitle test is skipped.
+[INFO ] 30-01-2024 13:44:50 [main] Log - skipTest test is starting...
+[WARN ] 30-01-2024 13:44:50 [main] Log - skipTest test is skipped.
+[INFO ] 30-01-2024 13:44:50 [main] Log - End testing sample test
+[INFO ] 30-01-2024 13:46:35 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 13:46:41 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 13:46:41 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 13:46:45 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 13:46:46 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 13:46:46 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 13:46:46 [main] Log - Screenshot captured for test case: checkTitle
+[ERROR] 30-01-2024 13:46:59 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 13:47:00 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 13:47:09 [main] Log - End testing sample test
+[INFO ] 30-01-2024 14:22:51 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 14:22:57 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 14:22:57 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 14:23:02 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 14:23:02 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 14:23:02 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 14:23:02 [main] Log - Screenshot captured for test case: checkTitle
+[ERROR] 30-01-2024 14:23:10 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 14:23:11 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 14:23:15 [main] Log - End testing sample test
+[INFO ] 30-01-2024 14:24:27 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 14:24:34 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 14:24:34 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 14:24:38 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 14:24:38 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 14:24:38 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 14:24:38 [main] Log - Screenshot captured for test case: checkTitle
+[ERROR] 30-01-2024 14:24:46 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 14:24:47 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 14:24:49 [main] Log - End testing sample test
+[INFO ] 30-01-2024 14:33:46 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 14:33:52 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 14:33:52 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 14:33:56 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 14:33:56 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 14:33:56 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 14:33:56 [main] Log - Screenshot captured for test case: checkTitle
+[ERROR] 30-01-2024 14:33:59 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 14:33:59 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 14:34:01 [main] Log - End testing sample test
+[INFO ] 30-01-2024 14:35:39 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 14:35:45 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 14:35:45 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 14:35:49 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 14:35:50 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 14:35:50 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 14:35:50 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 14:36:00 [main] Log - skipTest test is starting...
+[WARN ] 30-01-2024 14:36:00 [main] Log - skipTest test is skipped.
+[INFO ] 30-01-2024 14:36:03 [main] Log - End testing sample test
+[INFO ] 30-01-2024 14:38:37 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 14:38:43 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 14:38:43 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 14:38:47 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 14:38:47 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 14:38:47 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 14:38:48 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 14:38:51 [main] Log - skipTest test is starting...
+[WARN ] 30-01-2024 14:38:51 [main] Log - skipTest test is skipped.
+[INFO ] 30-01-2024 14:38:54 [main] Log - End testing sample test
+[INFO ] 30-01-2024 14:45:19 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 14:45:25 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 14:45:25 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 14:45:28 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 14:45:29 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 14:45:29 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 14:45:29 [main] Log - Screenshot captured for test case: checkTitle
+[ERROR] 30-01-2024 14:45:29 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 14:45:30 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 14:45:30 [main] Log - End testing sample test
+[INFO ] 30-01-2024 14:48:14 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 14:48:20 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 14:48:20 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 14:48:24 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 14:48:24 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 14:48:24 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 14:48:25 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 14:48:30 [main] Log - skipTest test is starting...
+[WARN ] 30-01-2024 14:48:30 [main] Log - skipTest test is skipped.
+[INFO ] 30-01-2024 14:48:32 [main] Log - End testing sample test
+[INFO ] 30-01-2024 14:55:31 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 14:55:37 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 14:55:37 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 14:55:41 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 14:55:41 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 14:55:41 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 14:55:41 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 15:10:32 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 15:10:38 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 15:10:38 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 15:10:43 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 15:10:43 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 15:10:43 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 15:10:43 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 15:14:41 [main] Log - skipTest test is starting...
+[WARN ] 30-01-2024 15:14:41 [main] Log - skipTest test is skipped.
+[INFO ] 30-01-2024 15:14:48 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 15:14:54 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 15:14:54 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 15:14:58 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 15:14:59 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 15:14:59 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 15:14:59 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 15:18:47 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 15:18:54 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 15:18:54 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 15:18:59 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 15:18:59 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 15:18:59 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 15:18:59 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 15:41:32 [main] Log - skipTest test is starting...
+[WARN ] 30-01-2024 15:41:32 [main] Log - skipTest test is skipped.
+[INFO ] 30-01-2024 15:41:37 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 15:41:43 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 15:41:43 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 15:41:47 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 15:41:48 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 15:41:48 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 15:41:48 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 16:05:27 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 16:05:34 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 16:05:34 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 16:05:39 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 16:05:39 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 16:05:39 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 16:05:39 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 16:56:27 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 30-01-2024 16:56:28 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 30-01-2024 16:56:28 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 16:56:36 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 16:56:36 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 16:56:40 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 16:56:40 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 16:56:40 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 16:56:41 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 17:12:29 [main] Log - skipTest test is starting...
+[WARN ] 30-01-2024 17:12:29 [main] Log - skipTest test is skipped.
+[INFO ] 30-01-2024 17:12:46 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 30-01-2024 17:12:47 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 30-01-2024 17:12:47 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 17:13:29 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 30-01-2024 17:13:30 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 30-01-2024 17:13:30 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 17:13:37 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 17:13:37 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 17:13:41 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 17:13:41 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 17:13:41 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 17:13:42 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 17:17:53 [main] Log - skipTest test is starting...
+[WARN ] 30-01-2024 17:17:53 [main] Log - skipTest test is skipped.
+[INFO ] 30-01-2024 17:17:59 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 30-01-2024 17:18:00 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 30-01-2024 17:18:00 [main] Log - Start testing sample test
+[INFO ] 30-01-2024 17:18:07 [main] Log - Appium driver is successfully initialized.
+[INFO ] 30-01-2024 17:18:07 [main] Log - Login test is starting...
+[INFO ] 30-01-2024 17:18:11 [main] Log - Login test is passed.
+[INFO ] 30-01-2024 17:18:11 [main] Log - checkTitle test is starting...
+[ERROR] 30-01-2024 17:18:11 [main] Log - checkTitle test is failed.
+[ERROR] 30-01-2024 17:18:12 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 30-01-2024 17:21:53 [main] Log - skipTest test is starting...
+[WARN ] 30-01-2024 17:21:53 [main] Log - skipTest test is skipped.
+[INFO ] 30-01-2024 17:21:55 [main] Log - End testing sample test
+[INFO ] 31-01-2024 11:30:32 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 31-01-2024 11:30:33 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 31-01-2024 11:30:33 [main] Log - Start testing sample test
+[ERROR] 31-01-2024 11:31:06 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 31-01-2024 11:31:06 [main] Log - Login test is starting...
+[ERROR] 31-01-2024 11:31:06 [main] Log - Login test is failed.
+[ERROR] 31-01-2024 11:31:06 [main] Log - Login test is failed.
+[INFO ] 31-01-2024 11:31:06 [main] Log - End testing sample test
+[INFO ] 31-01-2024 11:31:57 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 31-01-2024 11:31:58 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 31-01-2024 11:31:58 [main] Log - Start testing sample test
+[ERROR] 31-01-2024 11:33:37 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 31-01-2024 11:36:41 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 31-01-2024 11:36:42 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 31-01-2024 11:36:42 [main] Log - Start testing sample test
+[ERROR] 31-01-2024 11:37:25 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 31-01-2024 11:37:25 [main] Log - Login test is starting...
+[ERROR] 31-01-2024 11:37:25 [main] Log - Login test is failed.
+[ERROR] 31-01-2024 11:37:25 [main] Log - Login test is failed.
+[INFO ] 31-01-2024 11:37:25 [main] Log - End testing sample test
+[INFO ] 01-02-2024 13:10:01 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 13:10:02 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 13:10:02 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 13:10:09 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 13:10:09 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 13:10:14 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 13:10:14 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 13:10:14 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 13:10:14 [main] Log - Screenshot captured for test case: checkTitle
+[ERROR] 01-02-2024 13:10:15 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 13:10:15 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 13:10:15 [main] Log - End testing sample test
+[INFO ] 01-02-2024 13:11:13 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 13:11:14 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 13:11:14 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 13:11:20 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 13:11:20 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 13:11:25 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 13:11:25 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 13:11:25 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 13:11:25 [main] Log - Screenshot captured for test case: checkTitle
+[ERROR] 01-02-2024 13:11:26 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 13:11:27 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 13:11:27 [main] Log - End testing sample test
+[INFO ] 01-02-2024 13:13:25 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 13:13:25 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 13:13:25 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 13:13:37 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 13:13:37 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 13:13:41 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 13:13:41 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 13:13:41 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 13:13:41 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 13:16:03 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 13:16:04 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 13:16:04 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 13:16:13 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 13:16:13 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 13:16:19 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 13:16:19 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 13:16:19 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 13:16:19 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 13:21:59 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 13:22:00 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 13:22:00 [main] Log - Start testing sample test
+[ERROR] 01-02-2024 13:22:00 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 01-02-2024 13:22:01 [main] Log - Login test is starting...
+[ERROR] 01-02-2024 13:22:54 [main] Log - Login test is failed.
+[ERROR] 01-02-2024 13:22:59 [main] Log - Login test is failed.
+[INFO ] 01-02-2024 13:22:59 [main] Log - End testing sample test
+[INFO ] 01-02-2024 13:26:02 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 13:26:02 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 13:26:02 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 13:26:20 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 13:26:20 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 13:26:24 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 13:26:24 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 13:26:24 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 13:26:25 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 13:26:26 [main] Log - {"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+[INFO ] 01-02-2024 13:26:26 [main] Log - skipTest test is starting...
+[WARN ] 01-02-2024 13:26:26 [main] Log - skipTest test is skipped.
+[INFO ] 01-02-2024 13:26:29 [main] Log - End testing sample test
+[INFO ] 01-02-2024 13:27:58 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 13:27:59 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 13:27:59 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 13:28:06 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 13:28:06 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 13:28:10 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 13:28:10 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 13:28:10 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 13:28:11 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 13:28:12 [main] Log - {"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+[INFO ] 01-02-2024 13:28:12 [main] Log - skipTest test is starting...
+[WARN ] 01-02-2024 13:28:12 [main] Log - skipTest test is skipped.
+[INFO ] 01-02-2024 13:28:15 [main] Log - End testing sample test
+[INFO ] 01-02-2024 13:29:17 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 13:29:18 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 13:29:18 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 13:29:25 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 13:29:25 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 13:29:29 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 13:29:30 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 13:29:30 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 13:29:30 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 13:38:36 [main] Log - {"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+[INFO ] 01-02-2024 13:38:36 [main] Log - skipTest test is starting...
+[WARN ] 01-02-2024 13:38:36 [main] Log - skipTest test is skipped.
+[INFO ] 01-02-2024 13:38:42 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 13:38:43 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 13:38:43 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 13:38:52 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 13:38:52 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 13:38:57 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 13:38:57 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 13:38:57 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 13:38:58 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 14:06:05 [main] Log - {"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+[INFO ] 01-02-2024 14:06:05 [main] Log - skipTest test is starting...
+[WARN ] 01-02-2024 14:06:05 [main] Log - skipTest test is skipped.
+[INFO ] 01-02-2024 14:06:13 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 14:06:14 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 14:06:14 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 14:06:25 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 14:06:25 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 14:06:28 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 14:06:28 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 14:06:28 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 14:06:29 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 14:07:11 [main] Log - {}
+[INFO ] 01-02-2024 14:07:37 [main] Log - skipTest test is starting...
+[WARN ] 01-02-2024 14:07:37 [main] Log - skipTest test is skipped.
+[INFO ] 01-02-2024 14:07:49 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 14:07:50 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 14:07:50 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 14:07:57 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 14:07:57 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 14:08:02 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 14:08:02 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 14:08:02 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 14:08:03 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 14:55:53 [main] Log - {"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+[INFO ] 01-02-2024 14:55:54 [main] Log - skipTest test is starting...
+[WARN ] 01-02-2024 14:55:54 [main] Log - skipTest test is skipped.
+[INFO ] 01-02-2024 14:56:52 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 14:56:53 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 14:56:53 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 14:57:04 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 14:57:04 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 14:57:09 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 14:57:09 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 14:57:09 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 14:57:09 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 14:57:10 [main] Log - {"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+[INFO ] 01-02-2024 14:57:10 [main] Log - skipTest test is starting...
+[WARN ] 01-02-2024 14:57:10 [main] Log - skipTest test is skipped.
+[INFO ] 01-02-2024 14:57:13 [main] Log - End testing sample test
+[INFO ] 01-02-2024 15:52:16 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 15:52:17 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 15:52:17 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 15:52:29 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 15:52:29 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 15:52:34 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 15:52:34 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 15:52:34 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 15:52:35 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 15:52:36 [main] Log - {"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+[INFO ] 01-02-2024 15:52:36 [main] Log - skipTest test is starting...
+[WARN ] 01-02-2024 15:52:36 [main] Log - skipTest test is skipped.
+[INFO ] 01-02-2024 15:52:39 [main] Log - End testing sample test
+[INFO ] 01-02-2024 15:54:08 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 15:54:09 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 15:54:09 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 15:54:16 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 15:54:16 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 15:54:20 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 15:54:20 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 15:54:20 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 15:54:21 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 15:55:27 [main] Log - {"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+[INFO ] 01-02-2024 15:56:24 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 15:56:25 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 15:56:25 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 15:56:34 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 15:56:34 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 15:56:39 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 15:56:39 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 15:56:39 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 15:56:40 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 15:57:53 [main] Log - {"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+[INFO ] 01-02-2024 15:57:53 [main] Log - skipTest test is starting...
+[WARN ] 01-02-2024 15:57:53 [main] Log - skipTest test is skipped.
+[INFO ] 01-02-2024 15:57:54 [main] Log - skipTest test is starting...
+[WARN ] 01-02-2024 15:57:54 [main] Log - skipTest test is skipped.
+[INFO ] 01-02-2024 15:58:01 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 15:58:02 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 15:58:02 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 15:58:09 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 15:58:09 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 15:58:14 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 15:58:14 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 15:58:14 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 15:58:14 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 16:01:48 [main] Log - {"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+[INFO ] 01-02-2024 16:01:48 [main] Log - skipTest test is starting...
+[WARN ] 01-02-2024 16:01:48 [main] Log - skipTest test is skipped.
+[INFO ] 01-02-2024 16:01:56 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 16:01:57 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 16:01:57 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 16:02:07 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 16:02:07 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 16:02:11 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 16:02:11 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 16:02:11 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 16:02:11 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 16:07:59 [main] Log - {"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+[INFO ] 01-02-2024 16:07:59 [main] Log - skipTest test is starting...
+[WARN ] 01-02-2024 16:07:59 [main] Log - skipTest test is skipped.
+[INFO ] 01-02-2024 16:21:24 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 16:21:24 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 16:21:24 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 16:21:34 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 16:21:34 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 16:21:38 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 16:21:38 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 16:21:38 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 16:21:38 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 16:29:47 [main] Log - {"errorMessages":[],"errors":{"project":"Specify a valid project ID or key"}}
+[INFO ] 01-02-2024 16:29:47 [main] Log - skipTest test is starting...
+[WARN ] 01-02-2024 16:29:47 [main] Log - skipTest test is skipped.
+[INFO ] 01-02-2024 16:39:20 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 01-02-2024 16:39:20 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 01-02-2024 16:39:20 [main] Log - Start testing sample test
+[INFO ] 01-02-2024 16:39:30 [main] Log - Appium driver is successfully initialized.
+[INFO ] 01-02-2024 16:39:30 [main] Log - Login test is starting...
+[INFO ] 01-02-2024 16:39:34 [main] Log - Login test is passed.
+[INFO ] 01-02-2024 16:39:34 [main] Log - checkTitle test is starting...
+[ERROR] 01-02-2024 16:39:34 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 16:39:35 [main] Log - Screenshot captured for test case: checkTitle
+[ERROR] 01-02-2024 16:39:35 [main] Log - checkTitle test is failed.
+[ERROR] 01-02-2024 16:39:36 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 01-02-2024 16:39:36 [main] Log - End testing sample test
+[INFO ] 02-02-2024 09:54:34 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 02-02-2024 09:54:35 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 02-02-2024 09:54:35 [main] Log - Start testing sample test
+[INFO ] 02-02-2024 09:54:47 [main] Log - Appium driver is successfully initialized.
+[INFO ] 02-02-2024 09:54:47 [main] Log - Login test is starting...
+[INFO ] 02-02-2024 09:54:51 [main] Log - Login test is passed.
+[INFO ] 02-02-2024 09:54:51 [main] Log - checkTitle test is starting...
+[ERROR] 02-02-2024 09:54:51 [main] Log - checkTitle test is failed.
+[ERROR] 02-02-2024 09:54:52 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 02-02-2024 09:55:59 [main] Log - {"self":"https://tuan1111.atlassian.net/rest/api/2/issue/10021","id":"10021","key":"ATM-20"}
+[INFO ] 02-02-2024 09:55:59 [main] Log - skipTest test is starting...
+[WARN ] 02-02-2024 09:55:59 [main] Log - skipTest test is skipped.
+[INFO ] 02-02-2024 09:56:01 [main] Log - End testing sample test
+[INFO ] 02-02-2024 10:39:43 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 02-02-2024 10:39:44 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 02-02-2024 10:39:44 [main] Log - Start testing sample test
+[ERROR] 02-02-2024 10:39:44 [main] Log - Appium driver is null. Check driver initialization.
+[INFO ] 02-02-2024 10:39:44 [main] Log - Login test is starting...
+[ERROR] 02-02-2024 10:39:45 [main] Log - Login test is failed.
+[ERROR] 02-02-2024 10:39:45 [main] Log - Login test is failed.
+[INFO ] 02-02-2024 10:39:45 [main] Log - End testing sample test
+[INFO ] 02-02-2024 10:40:44 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 02-02-2024 10:40:44 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 02-02-2024 10:40:44 [main] Log - Start testing sample test
+[INFO ] 02-02-2024 10:41:25 [main] Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO ] 02-02-2024 10:41:26 [main] Utils - [TestNG] Running:
+  C:\Users\TramLeAnhTuan\OneDrive - quocviet.com.vn\Desktop\mobile-automation-maven\mobile-automation-maven\src\test\java\suites\testing.xml
+
+[INFO ] 02-02-2024 10:41:26 [main] Log - Start testing sample test
+[INFO ] 02-02-2024 10:41:34 [main] Log - Appium driver is successfully initialized.
+[INFO ] 02-02-2024 10:41:34 [main] Log - Login test is starting...
+[ERROR] 02-02-2024 10:41:38 [main] Log - Login test is failed.
+[ERROR] 02-02-2024 10:41:39 [main] Log - Screenshot captured for test case: Login
+[INFO ] 02-02-2024 10:41:41 [main] Log - {"self":"https://tuan1111.atlassian.net/rest/api/2/issue/10022","id":"10022","key":"ATM-21"}
+[INFO ] 02-02-2024 10:41:41 [main] Log - checkTitle test is starting...
+[ERROR] 02-02-2024 10:41:41 [main] Log - checkTitle test is failed.
+[ERROR] 02-02-2024 10:41:42 [main] Log - Screenshot captured for test case: checkTitle
+[INFO ] 02-02-2024 10:41:43 [main] Log - {"self":"https://tuan1111.atlassian.net/rest/api/2/issue/10023","id":"10023","key":"ATM-22"}
+[INFO ] 02-02-2024 10:41:43 [main] Log - skipTest test is starting...
+[WARN ] 02-02-2024 10:41:43 [main] Log - skipTest test is skipped.
+[INFO ] 02-02-2024 10:41:46 [main] Log - End testing sample test

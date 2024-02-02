@@ -1,14 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Page Object test example" parallel="false">
-
+<suite name="Page Login Object test" parallel="false">
     <parameter name="appURL" value="http://127.0.0.1:4723/" />
     <listeners>
         <listener class-name="utils.listeners.ReportListener"/>
     </listeners>
-    <test name="sample test">
+    <test name="Login test">
         <classes>
             <class name="testcases.ListenerTC">
-
             </class>
         </classes>
     </test>

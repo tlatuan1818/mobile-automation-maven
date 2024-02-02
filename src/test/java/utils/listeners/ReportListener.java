@@ -1,16 +1,24 @@
 package utils.listeners;
+
 import com.aventstack.extentreports.Status;
 import io.qameta.allure.Attachment;
 import base.BaseSetup;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import kong.unirest.HttpResponse;
+import kong.unirest.JsonNode;
+import kong.unirest.Unirest;
+import org.apache.commons.lang.exception.ExceptionUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import utils.Logs.Log;
+import utils.PropertiesFile;
 import utils.extentreport.ExtentTestManager;
+import utils.extentreport.JiraCreateIssue;
+import utils.extentreport.JiraServiceProvider;
 
 import static utils.extentreport.ExtentManager.getExtentReports;
 
@@ -77,7 +85,7 @@ public class ReportListener implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult iTestResult) {
-        
+        PropertiesFile.setPropertiesFile();
         appiumDriver = BaseSetup.getDriver();
         Log.error(getTestName(iTestResult) + " test is failed.");
 
@@ -90,6 +98,18 @@ public class ReportListener implements ITestListener {
         saveScreenshotPNG(appiumDriver);
         //Save a log on Allure report.
         saveTextLog(getTestName(iTestResult) + " failed and screenshot taken!");
+        boolean islogIssue = iTestResult.getMethod().getConstructorOrMethod().getMethod().getAnnotation(JiraCreateIssue.class).isCreateIssue();
+//
+        if (islogIssue) {
+            JiraServiceProvider JiraServiceProvider = new JiraServiceProvider();
+            String issueDescription = "Failure Reason from Automation Testing\n\n" + iTestResult.getThrowable().getMessage() + "\n";
+
+            issueDescription.concat(ExceptionUtils.getFullStackTrace(iTestResult.getThrowable()));
+            String issueSummary = iTestResult.getMethod().getConstructorOrMethod().getMethod().getName() + " Failed in Automation Testing";
+
+            JiraServiceProvider.CreateIssue(PropertiesFile.getPropValue("USERNAME"), PropertiesFile.getPropValue("JIRA_API_TOKEN"),  PropertiesFile.getPropValue("JIRA_URL"),issueSummary,issueDescription);
+
+        }
     }
 
 

@@ -11,13 +11,13 @@ public class PropertiesHelpers {
     private static String linkFile;
     private static FileInputStream file;
     private static FileOutputStream out;
-    private static String relPropertiesFilePathDefault = "src/main/resources/configs.properties";
+    private static final String relPropertiesFilePathDefault = "src/test/resources/configs.properties";
 
     public static Properties loadAllFiles() {
         LinkedList<String> files = new LinkedList<>();
 
         // Add tất cả file Properties vào đây theo mẫu
-        files.add("src/main/resources/configs.properties");
+        files.add("src/test/resources/configs.properties");
         //files.add("src/main/resources/data.properties");
 
         try {

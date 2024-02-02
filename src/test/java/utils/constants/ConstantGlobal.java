@@ -9,8 +9,9 @@ public class ConstantGlobal {
 
     public final static String BROWSER = PropertiesHelpers.getValue("BROWSER");
     public final static boolean HEADLESS = Boolean.parseBoolean(PropertiesHelpers.getValue("HEADLESS"));
-    public final static String URL = PropertiesHelpers.getValue("URL");
+    public final static String JIRA_URL = PropertiesHelpers.getValue("JIRA_URL");
     public final static String USERNAME = PropertiesHelpers.getValue("USERNAME");
+    public final static String JIRA_API_TOKEN = PropertiesHelpers.getValue("JIRA_API_TOKEN");
     public final static String PASSWORD = PropertiesHelpers.getValue("PASSWORD");
     public final static long STEP_TIME = Long.parseLong(PropertiesHelpers.getValue("STEP_TIME"));
     public final static long EXPLICIT_TIMEOUT = Long.parseLong(PropertiesHelpers.getValue("EXPLICIT_TIMEOUT"));
