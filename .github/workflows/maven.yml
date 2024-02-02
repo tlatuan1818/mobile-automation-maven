@@ -1,89 +1,55 @@
+name: Java CI with Maven
 
-  name: Java CI with Maven
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
 
-  on:
-    push:
-      branches: [ "master" ]
-    pull_request:
-      branches: [ "master" ]
+jobs:
+  test:
+    
+    runs-on: ubuntu-latest
+   
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        cache: maven
+    - name: Set up Android SDK
+      uses: android-actions/setup-android@v3
+      with:
+        cmdline-tools-version: 8512546
+    - name: Install Node.js and npm
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14'
 
-  jobs:
-    test:
+    - name: Install Appium
+      run: npm install -g appium
 
-      runs-on: ubuntu-latest
-
-      steps:
-        - uses: actions/checkout@v4
-        - name: Set up JDK 21
-          uses: actions/setup-java@v4
-          with:
-            java-version: '21'
-            distribution: 'temurin'
-            cache: maven
-        - name: Set up Android SDK
-          uses: android-actions/setup-android@v3
-          with:
-            cmdline-tools-version: 8512546
-        - name: Install Node.js and npm
-          uses: actions/setup-node@v3
-          with:
-            node-version: '14'
-
-        - name: Install Appium
-          run: npm install -g appium
-
-        - name: Installed Packages
-          run: sdkmanager --install "platform-tools" "system-images;android-29;google_apis;x86_64" "emulator"
-        - name: Enable KVM
-          run: |
-            echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
-            sudo udevadm control --reload-rules
-            sudo udevadm trigger --name-match=kvm
-        - name: Start Emulator
-          run: |
-            echo "no" | avdmanager create avd --force --name testAVD --abi google_apis/x86_64 --package 'system-images;android-29;google_apis;x86_64'
-            ls -l $ANDROID_SDK_ROOT/emulator/emulator
-            $ANDROID_SDK_ROOT/emulator/emulator -avd testAVD -no-window -no-audio -no-boot-anim &
-            sleep 60
-            $ANDROID_SDK_ROOT/platform-tools/adb shell input keyevent 82
-        - name: Install UIAutomator2
-          run: appium driver install uiautomator2
-
-        - name: Start Appium server
-          run: appium &
-
-        - name: Build with Maven
-          run: mvn -B package --file pom.xml
-
-        - uses: actions/upload-artifact@master
-          with:
-            name: allure-results
-            path: allure-results
-            retention-days: 20
-
-        - name: Get Allure history
-          uses: actions/checkout@v2
-          if: always()
-          continue-on-error: true
-          with:
-            ref: master
-            path: master
-
-        - name: Test marketplace action
-          uses: simple-elf/allure-report-action@master
-          if: always()
-          id: allure-report
-          with:
-            allure_results: allure-results
-            gh_pages: master
-            allure_report: allure-report
-            allure_history: allure-history
-            keep_reports: 20
-
-        - name: Deploy report to Github Pages
-          if: always()
-          uses: peaceiris/actions-gh-pages@v2
-          env:
-            PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            PUBLISH_BRANCH: master
-            PUBLISH_DIR: allure-history
+    - name: Installed Packages
+      run: sdkmanager --install "platform-tools" "system-images;android-29;google_apis;x86_64" "emulator"
+    - name: Enable KVM
+      run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+    - name: Start Emulator
+      run: |
+        echo "no" | avdmanager create avd --force --name testAVD --abi google_apis/x86_64 --package 'system-images;android-29;google_apis;x86_64'
+        ls -l $ANDROID_SDK_ROOT/emulator/emulator
+        $ANDROID_SDK_ROOT/emulator/emulator -avd testAVD -no-window -no-audio -no-boot-anim &
+        sleep 60
+        $ANDROID_SDK_ROOT/platform-tools/adb shell input keyevent 82 
+    - name: Install UIAutomator2
+      run: appium driver install uiautomator2
+    
+    - name: Start Appium server
+      run: appium &
+    - name: Build with Maven
+      run: mvn -B package --file pom.xml
+      
